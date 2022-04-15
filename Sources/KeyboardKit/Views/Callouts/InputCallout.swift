@@ -40,7 +40,7 @@ public struct InputCallout: View {
     
     public var body: some View {
         VStack(spacing: 0) {
-            callout.offset(y: 1)
+            callout
             button
         }
         .compositingGroup()
